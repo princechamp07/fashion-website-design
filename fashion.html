@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-green-200 w-full h-screen">
+    <Nav class="flex w-full justify-evenly space-x-4 p-10 h-12 items-center">
+        <div class=" text-green-950 font-bold text-3xl font-serif ">
+            Rivo
+        </div>
+        <div class="text-green-950 uppercase font-bold">
+        <ul class="space-x-10 cursor-pointer hidden md:flex">
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Features</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="flex space-x-16">
+        <div><i class="fa fa-shopping-bag text-2xl cursor-pointer" aria-hidden="true"></i></div>
+        <div class="uppercase font-serif border rounded p-1 px-4 border-green-900 cursor-pointer">Login</div>
+    </div>
+    </Nav>
+
+    <Header class="w-full flex flex-col-reverse md:flex-row ">
+        <div class="md:px-44 my-44 text-5xl text-green-900 p-10">
+            Discover and Find Your Own Fashion!
+            <div class="text-3xl text-green-800 font-serif mt-10">
+                Explore our curated collection of stylish cothing and accessories tailored to your unique taste
+            </div>
+            <div class="text-2xl text-white mt-10 font-serif">
+                <button class="bg-green-900 md:px-10 p-2 rounded shadow-2xl shadow-black">Explore Now</button>
+            </div>
+        </div>
+        <div class="w-full hidden md:flex mr-20 mt-44">
+            <img class="mx-10 h-96 md:h-[50%] border rounded-3xl rounded-tl-[100px] rounded-br-[100px] bg-green-300" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/82a94b15-68f2-4b47-ac50-f02ffeff6bc9/d9vw59e-eb9acf13-0a5f-4c14-ba66-b409a0f2c1c4.png/v1/fill/w_760,h_1052/girl_in_a_green_dress_png_by_msoranzhevaya_d9vw59e-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiJcL2ZcLzgyYTk0YjE1LTY4ZjItNGI0Ny1hYzUwLWYwMmZmZWZmNmJjOVwvZDl2dzU5ZS1lYjlhY2YxMy0wYTVmLTRjMTQtYmE2Ni1iNDA5YTBmMmMxYzQucG5nIiwid2lkdGgiOiI8PTg2NyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3JQAf7WIV3ZjVy8KHTafCy8FRrxu8Xx8CFMgHG9AIUc" alt="">
+        </div>
+    </Header>
+    
+    <Section class="bg-white flex flex-col items-center ">
+        <div>
+        <div class="flex flex-col items-center w-full ">
+            <div class="text-5xl text-green-900 mt-10">Best Selling</div>
+            <div class="text-2xl p-20">
+                Get in on the trend  with our curated selection of best-selling styles
+            </div>
+            <div class="flex flex-col md:space-x-3 md:mx-44 md:flex-row mb-20">
+                <div class="w-full mt-4">
+                    <img class="h-96  bg-green-300" src="Screenshot from 2024-01-08 19-31-56.png" alt="">
+                <div class="p-4 flex-col text-xl font-bold">
+                    Regular fit long Sleeve Top
+                    <div class="flex space-x-4 md:px-10 font-medium">
+                    <div>$38.99</div>
+                    <div class="border-l-2 border-green-900 px-4">5.0 &#x2B50;</div>
+                </div>
+                </div>
+                </div>
+                <div class="w-full mt-4">
+                    <img class=" h-96  bg-green-300" src="Screenshot from 2024-01-08 19-32-03.png" alt="">
+                    <div class="p-4 flex-col text-xl font-bold">
+                        Black Crop Tailored jacket
+                        <div class="flex space-x-4 md:px-10 font-medium">
+                        <div>$30.80</div>
+                        <div class="border-l-2 border-green-900 px-4">4.5 &#x2B50;</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-full mt-4">
+                    <img class="h-96 bg-green-300" src="Screenshot from 2024-01-08 19-32-13.png" alt="">
+                    <div class="p-4 flex-col text-xl font-bold">
+                        Colour Block T-Shirt
+                        <div class="flex space-x-4 md:px-10 font-medium">
+                        <div>$38.99</div>
+                        <div class="border-l-2 border-green-900 px-4">5.0 &#x2B50;</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        <button class="border-2 md:mb-28 border-green-900 text-green-900 px-20 p-4 font-bold ">See all  <i class="fa fa-arrow-right pl-2" aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <div>
+        <div class="text-5xl font-mono flex text-center m-auto justify-center font-bold text-green-900 md:mx-48 mt-10">Our products</div>
+        <div>
+            <ul class="space-x-24 mx-20 my-16 text-xl cursor-pointer hidden md:flex">
+                <li>Sale</li>
+                <li class="border-b-2 border-green-950">Hot</li>
+                <li>Arrivals</li>
+                <li>Accessories</li>
+            </ul>
+        </div>
+    </div>
+        <div class="flex flex-col md:space-x-12 md:mx-44 md:flex-row">
+            <div class="mt-4 md:mx-10">
+                <img class="h-96 bg-green-300" src="-473Wx593H-465068575-white-MODEL.avif" alt="">
+            <div class="p-4 text-center  flex-col text-xl font-bold">
+                Spread Collar Shirt
+                <div class="flex justify-center space-x-4 md:px-10 font-medium">
+                <div>$48.99</div>
+                <div class="border-l-2 border-green-900 px-4">5.0 &#x2B50;</div>
+            </div>
+            </div>
+            </div>
+            <div class=" mt-4">
+                <img class=" h-96 bg-green-300" src="Screenshot from 2024-01-10 19-35-26.png" alt="">
+                <div class="p-4 text-center  flex-col text-xl font-bold">
+                    White Solid Formal Shirt
+                    <div class="flex justify-center space-x-4 md:px-10 font-medium">
+                    <div>$30.80</div>
+                    <div class="border-l-2 border-green-900 px-4">4.5 &#x2B50;</div>
+                </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <img class="h-96 bg-green-300" src="Screenshot from 2024-01-10 19-35-35.png" alt="">
+                <div class="p-4 text-center  flex-col text-xl font-bold">
+                    Shine On Me Blouse
+                    <div class="flex justify-center space-x-4 md:px-10 font-medium">
+                    <div>$48.99</div>
+                    <div class="border-l-2 border-green-900 px-4">4.8 &#x2B50;</div>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="flex flex-col md:space-x-12 md:mx-44 md:flex-row ">
+            <div class="mt-4 md:mx-10 ">
+                <img class="h-96 bg-green-300" src="Screenshot from 2024-01-10 19-35-51.png" alt="">
+            <div class="p-4 text-center  flex-col text-xl font-bold">
+                Gray Solid Padded Jacket
+                <div class="flex justify-center space-x-4 md:px-10 font-medium">
+                <div>$48.99</div>
+                <div class="border-l-2 border-green-900 px-4">5.0 &#x2B50;</div>
+            </div>
+            </div>
+            </div>
+            <div class=" mt-4">
+                <img class=" h-96 bg-green-300" src="Screenshot from 2024-01-10 19-36-01.png" alt="">
+                <div class="p-4 text-center flex-col text-xl font-bold">
+                    Printed Loose T-Shirt
+                    <div class="flex justify-center space-x-4md:px-10 font-medium">
+                    <div>$30.80</div>
+                    <div class="border-l-2 border-green-900 px-4">4.5 &#x2B50;</div>
+                </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <img class="h-96 bg-green-300" src="Screenshot from 2024-01-10 19-36-11.png" alt="">
+                <div class="p-4 text-center flex-col text-xl font-bold">
+                   Tailor Jacket
+                    <div class="flex justify-center space-x-4 md:px-10 font-medium">
+                    <div>$48.99</div>
+                    <div class="border-l-2 border-green-900 px-4">4.8 &#x2B50;</div>
+                </div>
+                </div>
+            </div>
+           
+        </div>
+    
+    </Section>
+
+    <Section class="bg-white">
+        <div class="flex justify-center md:flex">
+       <div class="container bg-green-200 flex-row mx-10 my-10 md:w-[68%] mr-10 mt-12 md:flex">
+    <img src="Screenshot from 2024-01-05 19-57-32.png" alt="">
+
+    <div class="my-4 mx-10 justify-center text-green-950 md:mt-28 md:mx-40">
+        <div class="font-bold text-4xl">        
+            Exclusive offer
+        </div>
+        <div class="mt-4 pr-10 text-xl">
+        unlock the ultimate style upgrade with our exclusive offer Enjoy Saving of up to 40% off on our latest New Arrival
+    </div>
+    <div class="flex font-bold space-x-8 mt-4">
+        <div class="bg-white px-5 py-2 ">
+           <div> 06</div>
+            <div>
+                days
+            </div>
+        </div>
+        <div class="bg-white px-5 py-4"> 
+           <div> 18</div>
+            <div>
+                Hours
+            </div>
+        </div>
+        <div class="bg-white px-5 py-4">
+            <div>48</div>
+            <div>
+               Min
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center md:justify-start">
+    <div class="py-4 bg-green-800 text-white font-bold w-44 my-8 flex justify-center rounded">
+      Buy Now
+    </div>
+</div>
+    </div>
+       </div>
+    </div>
+<div class="flex justify-center m-auto text-center">
+    <div class="text-green-800 mt-10  text-3xl font-serif">
+       <div class="font-bold"> Designer Clothes For You</div>
+        <div class="text-lg mt-10">
+            Immerse yourself in the world of luxury fashion with our metculously crafted designer clothes!
+        </div>
+        <div class="flex justify-center text-slate-700 mt-8 flex-col mx-5 md:space-x-10 md:mx-44 md:flex-row md:h-screen">
+            <div class="flex-col flex md:w-[20%] mt-4">
+                <img class="h-96 " src="Screenshot from 2024-01-08 19-25-45.png" alt="">
+                <div class="p-4">
+                    <div class="font-bold">Accessories</div>
+                    <div class="text-lg">
+                    Complete your ensemble with designer accessories such as handbags,scarves,belts,and hats.
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col flex  md:w-[20%] mt-4">
+                <img class=" h-96 " src="Screenshot from 2024-01-08 19-26-25.png" alt="">
+                <div class="p-4">
+                    <div class="font-bold">Dresses</div>
+                    <div class="text-lg">
+                    Explore a stunning range of designer dresses, including evening gowns and chic day dresses.
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col flex md:w-[20%] mt-4">
+                <img class="h-96 " src="Screenshot from 2024-01-08 19-26-35.png" alt="">
+                <div class="p-4">
+                    <div class="font-bold">Outerwear</div>
+                    <div class="text-lg">
+                        Browse luxurious designer coats jackets, and blazers to stay stylishly warm during colder seasons.
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="flex flex-col justify-center m-auto text-center">
+    <div class="text-green-800 text-3xl font-serif">
+    <div class="font-bold"> Feedback Corner</div>
+    
+</div>
+
+<div class="md:flex md:px-64 mt-12 mb-12">
+    <div class="text-xl font-bold hover:bg-blue-300 px-12 py-12 rounded mx-12 text-green-800 font-serif">
+        Emily Wilson
+        <div class="my-4 text-center flex m-auto hover:text-green-800  text-slate-600 text-sm">
+            The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fir perfectly.i'm beyond satisfied!
+        </div>
+        
+    </div>
+    <div class="text-xl font-bold text-green-800 hover:bg-blue-300 px-12 py-12 rounded font-serif">
+        Emily Wilson
+        <div class=" my-4 text-center flex m-auto  hover:text-green-800 text-slate-600 text-sm">
+            The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fir perfectly.i'm beyond satisfied!
+        </div>
+        
+    </div>
+    <div class="text-xl font-bold text-green-800 hover:bg-blue-300 px-12 py-12 rounded  font-serif">
+        Emily Wilson
+        <div class=" my-4 text-center flex m-auto  hover:text-green-800 text-slate-600 text-sm">
+            The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fir perfectly.i'm beyond satisfied!
+        </div>
+    </div>
+    </div> 
+   <div class="text-3xl pb-12">
+
+    <i class="fa fa-arrow-circle-o-left hidden md:inline hover:cursor-pointer hover:bg-blue-400 rounded-full mx-12" aria-hidden="true"></i>
+    <i class="fa fa-arrow-circle-o-right hidden md:inline hover:cursor-pointer hover:bg-blue-400 rounded-full " aria-hidden="true"></i>
+    <i class="fa fa-arrow-circle-o-up md:hidden hover:cursor-pointer hover:bg-blue-400 rounded-full " aria-hidden="true"></i>
+    <i class="fa fa-arrow-circle-o-down md:hidden hover:cursor-pointer hover:bg-blue-400 rounded-full " aria-hidden="true"></i>
+   </div>
+
+</div>
+    </Section>
+
+    
+
+    <footer class="bg-green-800">
+    <div class="px-10 md:flex md:justify-evenly py-12">
+        <div class="text-white flex-row my-4 space-y-4">
+        <div class="font-bold text-4xl font-serif">Rivo</div>
+        <div class="font-semibold">Social Media</div>
+        <div  class="flex space-x-4"> <i class="fa fa-facebook-square text-3xl " aria-hidden="true"></i><i class="fa fa-twitter text-3xl " aria-hidden="true"></i><i class="fa fa-instagram text-3xl" aria-hidden="true"></i></div>
+    </div>
+    <div class="text-white flex-row my-4 space-y-4 text-lg font-serif">
+        <div class="font-bold">SHOP</div>
+        <div>Products</div>
+        <div>Overview</div>
+        <div>Pricing</div>
+        <div>Releases</div>
+    </div>
+    <div class="text-white flex-row my-4 space-y-4 text-lg font-serif">
+        <div class="font-bold">COMPANY</div>
+        <div>About Us</div>
+        <div>Contact</div>
+        <div>News</div>
+        <div>Support</div>
+    </div>
+    <div class="text-white text-lg font-serif">
+        <div class="font-semibold">STAY UP TO DATE</div>
+        <div class="flex"><input type="email" placeholder="Enter your email" class="py-2 px-4 bg-green-800 border-blue-300 border-2"><button class="font-bold bg-blue-300 px-4 py-2 border-2 border-blue-300 text-green-800 ">SUBMIT</button></div>
+    </div>
+</div>
+<div class="flex justify-center ">
+    <div class="text-blue-300 font-bold mx-4 my-10 border-t-2 border-blue-300 w-1/2" ></div>
+    <div class="text-white flex my-6 font-bold space-x-4 mx-2 text-lg font-serif">
+        <div>Terms</div>
+        <div>Privacy</div>
+        <div>Cookies</div>
+        
+    </div>
+</div>
+    </footer>
+
+</body>
+</html>
